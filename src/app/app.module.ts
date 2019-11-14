@@ -11,4 +11,3 @@ import localeFr from '@angular/common/locales/fr';
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
-registerLocaleData(localeFr, 'fr')
