@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="df72d4c6f49553716fedb04604f7f7dbb5022ec8" datatype="html">
         <source>En Construcion</source>
-        <target>En Construction</target>
+        <target>In construction</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">3</context>
@@ -12,7 +12,7 @@
       </trans-unit>
       <trans-unit id="926e02b336d92f51cf71ccb4d98db60718b369c2" datatype="html">
         <source>Esta pagina esta en construccion.</source>
-        <target>Cette page est en construction.</target>
+        <target>This site is under construction.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">4</context>

@@ -6,12 +6,14 @@
   "scripts": {
     "start": "ng serve",
     "start:fr": "ng serve --configuration=fr",
+    "start:en": "ng serve --configuration=en",
     "build": "ng build --prod",
     "build:fr": "ng build --configuration=production-fr",
+    "build:en": "ng build --configuration=production-en",
     "test": "ng test",
     "lint": "tslint ./src/**/*.ts -t verbose",
     "e2e": "ng e2e",
-    "extract": "ng xi18n --output-path=locale"
+    "extract": "ng xi18n --output-path src/locale --i18n-locale es"
   },
   "keywords": [],
   "author": "",
@@ -49,7 +51,7 @@
     "lodash": "^4.16.2",
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
-    "tslint": "~5.15.0",
+    "tslint": "^5.15.0",
     "typescript": "~3.4.3"
   },
   "repository": {}
