@@ -7,7 +7,6 @@
     "start": "ng serve",
     "build": "ng build --prod",
     "test": "ng test",
-    "lint": "tslint ./src/**/*.ts -t verbose",
     "e2e": "ng e2e"
   },
   "keywords": [],
@@ -37,6 +36,7 @@
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "^2.0.4",
     "@types/node": "~8.9.4",
+    "eslint-plugin-angular": "^4.0.1",
     "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.1.0",
@@ -47,8 +47,6 @@
     "lodash": "^4.16.2",
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
-    "tslint": "^5.20.1",
-    "tslint-eslint-rules": "^5.4.0",
     "typescript": "^3.4.5"
   },
   "repository": {}

@@ -1,6 +1,6 @@
 {
   "files.exclude": {
-    "node_modules":true ,
+    "node_modules": false,
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
@@ -11,9 +11,10 @@
     "**/node_modules": true,
     "**/bower_components": true
   },
-  "tslint.exclude": [
-    "**/dist/**",
-    "**/node_modules/**"
-  ],
-  "extensions.showRecommendationsOnlyOnDemand": false
+  "extensions.showRecommendationsOnlyOnDemand": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.disableLanguages": ["html"],
+  "eslint.autoFixOnSave": true,
+  "editor.rulers": [90, 100]
 }
