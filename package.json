@@ -5,15 +5,10 @@
   "description": "Example project from an angular.io guide.",
   "scripts": {
     "start": "ng serve",
-    "start:fr": "ng serve --configuration=fr",
-    "start:en": "ng serve --configuration=en",
     "build": "ng build --prod",
-    "build:fr": "ng build --configuration=production-fr",
-    "build:en": "ng build --configuration=production-en",
     "test": "ng test",
     "lint": "tslint ./src/**/*.ts -t verbose",
-    "e2e": "ng e2e",
-    "extract": "ng xi18n --output-path src/locale --i18n-locale es"
+    "e2e": "ng e2e"
   },
   "keywords": [],
   "author": "",
