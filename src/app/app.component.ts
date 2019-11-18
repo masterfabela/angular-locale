@@ -11,9 +11,18 @@ export class AppComponent {
   title = 'angularLocaleTest';
   translateService: TranslateService;
   browserLanguage;
+
   constructor(public translate: AngularTranslate) {
     this.translateService = new TranslateService(translate);
     this.translateService.configureLanguages();
     this.browserLanguage = this.translateService.getBrowserLanguage();
+  }
+
+  changeLanguage() {
+    if (this.translateService.getActualLanguage() === 'es') {
+      this.translateService.changeLanguage('en');
+    } else {
+      this.translateService.changeLanguage('es');
+    }
   }
 }

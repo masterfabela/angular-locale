@@ -15,6 +15,6 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.disableLanguages": ["html"],
-  "eslint.autoFixOnSave": true,
+  "prettier.printWidth": 90,
   "editor.rulers": [90, 100]
 }
