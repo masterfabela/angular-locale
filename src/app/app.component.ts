@@ -1,14 +1,19 @@
 import { Component } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
+import { TranslateService as AngularTranslate } from '@ngx-translate/core';
+import { TranslateService } from './services/translate/translate.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
   title = 'angularLocaleTest';
-  constructor(public translate: TranslateService) {
-    translate.addLangs(['es', 'en']);
-    translate.setDefaultLang('es');
+  translateService: TranslateService;
+  browserLanguage;
+  constructor(public translate: AngularTranslate) {
+    this.translateService = new TranslateService(translate);
+    this.translateService.configureLanguages();
+    this.browserLanguage = this.translateService.getBrowserLanguage();
+  }
 }

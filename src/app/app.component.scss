@@ -9,7 +9,8 @@ section {
 article {
   text-align: center;
   color: white;
-  border: 1px solid white;
+  border-radius: 8%;
+  border: 2px solid linear-gradient(to right, #4a00e0, #8e2de2);
   padding: 40px;
   box-shadow: 1px 1px 100px 10px rgba(0, 0, 0, 0.8);
 }
